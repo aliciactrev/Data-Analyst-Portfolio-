@@ -9,28 +9,18 @@ Case study link: https://8weeksqlchallenge.com/case-study-5/
 
 ---
 
-## Skills Demonstrated
+### SQL Technical Skills
 
-### Data Cleaning and Transformation
-- Converting string-based dates into proper DATE formats
-- Creating derived time-based columns (week number, month, year)
-- Handling null and missing values
-- Creating meaningful categorical fields such as age band and demographic
-- Calculating derived metrics,including average transaction value
+- Data cleaning and transformation (date handling, derived columns, null management)
+- Aggregation and grouping across regions, platforms, and customer segments
+- Before-and-after analysis to measure business impact
+- Use of CTEs and structured SQL for readable, maintainable queries
+- Translating data outputs into clear business insights
 
-### SQL Analysis and Aggregation
-- Aggregating sales and transaction data across multiple dimensions
-- Grouping data by region, platform, and customer segment
-- Performing before-and-after comparisons around a key business event
+---
 
-### Analytical Thinking
-- Measuring the impact of a business change using data
-- Identifying trends and performance differences across customer segments
-- Calculating percentage changes to support analytical conclusions
-- Translating query outputs into clear business insights
+### Key Questions Answered
 
-### SQL Best Practices
-- Using Common Table Expressions (CTEs) to structure complex logic
-- Writing readable, maintainable SQL queries
-- Applying conditional logic and window functions where appropriate
-
+- How did sales performance change after the packaging update?
+- Which regions, platforms, and customer segments were most affected?
+- What trends emerged before and after the change?
