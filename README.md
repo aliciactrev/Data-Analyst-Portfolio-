@@ -47,44 +47,35 @@ Next Steps:
 • Recommended sentiment analysis for text reviews, better data infrastructure, and expanded feature sets (e.g., warehouse geolocation).
 
 
+### SQL Data Analysis – Impact Assessment for Data Mart
 
-### SQL Data Analysis - Subscription Analytics for Foodie-Fi
+Main Objective: Analyzed weekly sales data for a fictional retail business to evaluate the impact of introducing sustainable packaging in June 2020. Key achievements included:
 
-Main Objective: Analyzed subscription lifecycle data for a fictional streaming service offering food-related content, using PostgreSQL. Key achievements included:
+• Data Transformation: Cleaned and standardized raw sales data, derived time-based fields (week, month, year), and created meaningful customer attributes such as age band and demographic.
 
-• Customer Journey Mapping: Tracked onboarding paths and plan transitions (trial → basic/pro → churn) for individual users using window functions and joins.
+• Pre/Post Change Analysis: Compared sales and transaction performance before and after the packaging change to quantify business impact.
 
-• Cohort and Retention Analysis: Calculated churn rates, plan upgrade/downgrade trends, and time-to-upgrade using analytical functions like ROW_NUMBER, LAG, and DATE_PART.
+• Segment Performance Analysis: Evaluated trends across regions, platforms, and customer segments to identify areas of growth and decline.
 
-• Revenue Modeling: Designed a custom payments table to simulate monthly and annual billing logic, proration during upgrades, and billing cutoff on churn.
+• Metric Development: Calculated total sales, average transaction values, and percentage changes across multiple dimensions.
 
-• KPI Development: Generated metrics including active users, churn %, upgrade timelines, and plan distribution snapshots as of specific dates.
+• Business Insights: Identified which customer groups and channels were most affected by the operational change and highlighted implications for future business decisions.
 
-• Business Insights: Identified key customer behaviors and proposed data-driven strategies to improve retention, enhance onboarding, and guide pricing.
+### SQL Data Analysis – Funnel and Behaviour Analysis for Clique Bait
 
-### SQL Data Analysis - Operational Analytics for Pizza Runner 
-Conducted comprehensive SQL analysis for a fictional pizza delivery startup to improve operations, customer experience, and ingredient optimization. 
-Project involved cleaning messy data, deriving key metrics, and simulating business logic using advanced SQL.
+Main Objective: Analyzed event-level user interaction data for a fictional online retailer to understand customer behaviour, engagement, and conversion performance. Key achievements included:
 
-• Data Cleaning & Transformation: Parsed and standardized free-text fields (exclusions, extras, distance, duration) and handled NULLs and inconsistent formats.
+• Event Data Integration: Joined multiple event and reference tables to construct a unified view of user activity across visits, products, and campaigns.
 
-• Operational Metrics: Calculated KPIs including delivery success rates, order volumes by time, average delivery time, and runner performance (speed, efficiency).
+• Funnel Analysis: Measured user progression through key funnel stages, including page views, cart additions, and purchases, and quantified drop-off rates.
 
-• Customer & Product Insights: Identified most popular pizzas, extras, exclusions, and unique customer order patterns.
+• Engagement Metrics: Calculated unique users, visits, and interaction frequencies across different pages and products.
 
-• Ingredient Usage & Menu Optimization: Quantified ingredient consumption across all delivered orders to inform inventory planning and potential menu expansion.
+• Product and Campaign Analysis: Identified high-performing products and examined how campaigns influenced user behaviour and conversion outcomes.
 
-• Revenue Modeling: Estimated revenue based on pizza pricing, runner payouts, and extras using CASE logic; simulated changes in profitability with pricing tweaks.
-
-• Relational Data Modeling: Proposed schema changes (e.g., for pizza ratings and new menu items) to ensure database scalability and normalize complex data.
+• Business Insights: Highlighted opportunities to reduce funnel abandonment and improve conversion efficiency through data-driven optimisation.
 
 
-
-
-### Data Cleaning and Data Management on Amazon Sales in India using PostgreSQL 
-• Conducted data walkthrough, data cleaning of the Amazon Sales Dataset based in Kaggle. 
-
-• Investigated the main categories sold in Amazon and built a summary financial result of the main category list. 
 
 ### Respiratory Diseases Analysis on Infants using R (GLM)
 • Analyzed data on 18,000+ infants from 40 countries to identify risk factors associated with respiratory disease.
