@@ -4,7 +4,7 @@ Below are some of the projects that I've built over the past few years to furthe
 information and insights based on the intended audience. Few tools I have used includes: Python, R, and Power BI.
 
 ### AI-Assisted Lending Experiment: A/B Testing and Statistical Evaluation
-
+*under AB Testing Folder
 Financial institutions face significant costs when approving loans that later default and lost revenue when creditworthy applicants are incorrectly rejected. This project evaluated whether a newly developed AI-assisted loan review model could improve lending decisions, reduce financial risk, and support deployment decisions. Applying loan data into a controlled A/B experiment, this project analysed changes in loan officer decision quality, error rates, and confidence levels through statistical testing, effect size analysis, and power calculations.
 
 
@@ -15,7 +15,8 @@ Developed two multimodal churn prediction models which utilises Latent Dirichlet
 
 
 ### Machine Learning Project – Review Prediction for E-commerce Platform (Nile)
-Warwick Business School – Analytics in Practice, Group Project
+*File located in Machine Learning Project
+*Warwick Business School – Analytics in Practice, Group Project
 
 Developed a machine learning solution for Nile, a Brazilian e-commerce platform, to predict and increase the likelihood of customers leaving positive reviews—improving brand reputation and customer engagement.
 
@@ -53,7 +54,7 @@ Next Steps:
 
 
 ### SQL Data Analysis – Impact Assessment for Data Mart
-
+*File under SQL Projects
 Main Objective: Analyzed weekly sales data for a fictional retail business to evaluate the impact of introducing sustainable packaging in June 2020. Key achievements included:
 
 • Data Transformation: Cleaned and standardized raw sales data, derived time-based fields (week, month, year), and created meaningful customer attributes such as age band and demographic.
@@ -67,7 +68,7 @@ Main Objective: Analyzed weekly sales data for a fictional retail business to ev
 • Business Insights: Identified which customer groups and channels were most affected by the operational change and highlighted implications for future business decisions.
 
 ### SQL Data Analysis – Funnel and Behaviour Analysis for Clique Bait
-
+*File under SQL Projects
 Main Objective: Analyzed event-level user interaction data for a fictional online retailer to understand customer behaviour, engagement, and conversion performance. Key achievements included:
 
 • Event Data Integration: Joined multiple event and reference tables to construct a unified view of user activity across visits, products, and campaigns.
